@@ -4,3 +4,4 @@ const instance = axios.create({
     "http://mernbackend-env.eba-gqm2mhpr.us-east-1.elasticbeanstalk.com:8000/api",
 })
 export default instance
+//
