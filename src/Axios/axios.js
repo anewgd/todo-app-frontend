@@ -1,5 +1,6 @@
 import axios from "axios"
 const instance = axios.create({
-    baseURL:"http://localhost:8000/api"
+  baseURL:
+    "http://mernbackend-env.eba-gqm2mhpr.us-east-1.elasticbeanstalk.com:8000/api",
 })
 export default instance
